@@ -1,10 +1,10 @@
 # Javascript Developer coding challenge
 
-Using the assets provided, your task is to build a simple web application that shows a list of GitHub profiles. 
+Using the assets provided, your task is to build a simple web application that shows a list of GitHub profiles.
 
 Please, read all sections within this document carefully.
 
-Points marked as optional are entirely up to you. 
+Points marked as optional are entirely up to you.
 They will give you the chance to shine within the selection process but they are not required.
 
 With the ["Guidelines"](#Guidelines) section in mind, you should complete at least the following required features.
@@ -23,7 +23,7 @@ With the ["Guidelines"](#Guidelines) section in mind, you should complete at lea
 * [optional] The page must show 6 profiles on page load. Find the best way to browse the full list and show more profiles
 
 * [optional] Provide a solution to show only the saved profiles
- 
+
 * [optional] Show a search text input to filter the profiles by username
 
 ## Guidelines
@@ -55,22 +55,22 @@ These info are expecially useful in case you choose to not use octocat.js
 ```text
 Host: api.github.com
 Protocol: https
-Headers:  
+Headers:
     - content-type: application/json
     - accept: application/vnd.github.v3+json
-          
+
 endpoints:
     - GET /users  # Get a list of users
 ```
 
 ## Delivery
 
-Create a **private Git repository** with the following format: 
+Create a **private Git repository** with the following format:
 
-	js_challenge_<first-name>-<last-name> 
+	js_challenge_<first-name>-<last-name>
 
 [Github](https://github.com) allows private repositories for free, you only need to grant us access to it afterwards.
-Please, use these accounts: [tommasoberlose](https://github.com/tommasoberlose), [andreamazz](https://github.com/andreamazz), [madAle](https://github.com/madAle).
+Please, use these accounts: [tommasoberlose](https://github.com/tommasoberlose), [andreamazz](https://github.com/andreamazz), [madAle](https://github.com/madAle), [micheletedeschi](https://github.com/micheletedeschi).
 
 Commit your work as you progress, we look at the commit history as well
 
@@ -81,7 +81,7 @@ You can delete the contents of this README and replace it with content of your o
 Not following these points may cause an immediate elimination:
 
 * Project is delivered in any way other than in a private GIT repository
-* The project's required features aren’t fulfilled 
+* The project's required features aren’t fulfilled
 * Lack of instructions to run the project
 
 ## Assets Provided
