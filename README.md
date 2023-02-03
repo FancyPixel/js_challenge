@@ -45,8 +45,8 @@ As you can read in the linked doc, GitHub's API require authentication. ***You m
 ##### AUTH TOKEN Creation: TL;DR Version
 
 Go to [your profile's settings page](https://github.com/settings/profile). On the left menu, click on the last entry, that should be
-[Developer settings](https://github.com/settings/apps). On the left menu, click on Personal Access Token and then on [Fine-grained tokens](https://github.com/settings/tokens?type=beta). On top the right, click on `Generate new token`.
-Give the token a name by filling in the required `Token name` field. You can leave all the remaining fields with the default values.
+[Developer settings](https://github.com/settings/apps). On the left menu, click on Personal Access Token and then on [Fine-grained tokens](https://github.com/settings/tokens?type=beta). 
+On the top right, click on `Generate new token`. Give the token a name by filling in the required `Token name` field. You can leave all the remaining fields with the default values.
 
 ### Brief summary of needed GitHub's API
 
