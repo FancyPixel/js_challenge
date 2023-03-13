@@ -18,13 +18,19 @@ With the ["Guidelines"](#Guidelines) section in mind, you should complete at lea
 
 * The number of saved profiles in the header must be updated with the favorite profiles count
 
-* Make the application responsive, in your own taste ( CSS )
+* Make the application responsive and with a modern design, in your own taste ( CSS )
 
-* [optional] The page must show 6 profiles on page load. Find the best way to browse the full list and show more profiles
+* Initially the page must load only 6 profiles. Find the best way to browse the full list from the server and show more profiles
 
-* [optional] Provide a solution to show only the saved profiles
+* Provide a solution to show only the saved profiles
 
 * [optional] Show a search text input to filter the profiles by username
+
+* [optional] Use of Typescript
+
+* [optional] Use of Redux Toolkit
+
+* [optional] Use of CSS preprocessors
 
 ## Guidelines
 
@@ -38,7 +44,7 @@ If not specified in the design, it’s up to you to decide what’s best.
 ## API docs
 
 At [this page](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api?apiVersion=2022-11-28&tool=javascript) you can find GitHub's "Getting started with the REST API" guide, with plenty of code snippets
-and JS examples ready to use. Our advice is to **use the Octocat JS library**.
+and JS examples ready to use. Please avoid to use the Octocat JS library.
 
 As you can read in the linked doc, GitHub's API require authentication. ***You must own a GitHub account in order to complete this challenge.***
 
