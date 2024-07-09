@@ -14,7 +14,7 @@ With the ["Guidelines"](#Guidelines) section in mind, you should complete at lea
 
 * Avoid to use ANY external libraries for components
 
-* Develop the “Add/Remove to Favorites” action which works client side only
+* Develop the “Add/Remove to Favorites” action which works client-side only
 
 * The number of saved profiles in the header must be updated with the favorite profiles count
 
@@ -24,17 +24,17 @@ With the ["Guidelines"](#Guidelines) section in mind, you should complete at lea
 
 * Provide a solution to show only the saved profiles
 
-* [optional] Show a search text input to filter the profiles by username
+* Show a search text input to filter the profiles by username
 
 * [optional] Use of Typescript
 
 * [optional] Use of Redux Toolkit
 
-* [optional] Use of CSS preprocessors
+* [optional] Use of CSS preprocessors or Tailwind CSS
 
 ## Guidelines
 
-You're free to use the framework of your choice (Vuejs, Reactjs, Angularjs...) or just 'ol plain Vanilla JS. Also you can start with a boilerplate if you want.
+You're free to use the framework of your choice (Vuejs, Reactjs, Angularjs...) or just 'ol plain Vanilla JS. Also, you can start with a boilerplate if you want.
 
 You must use the given API to retrieve a list of profiles and you can choose any API client to work with.
 You must provide the instructions to let us run the application.
@@ -44,13 +44,13 @@ If not specified in the design, it’s up to you to decide what’s best.
 ## API docs
 
 At [this page](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api?apiVersion=2022-11-28&tool=javascript) you can find GitHub's "Getting started with the REST API" guide, with plenty of code snippets
-and JS examples ready to use. Please avoid to use the Octocat JS library.
+and JS examples ready to use. Please avoid using the Octocat JS library.
 
-As you can read in the linked doc, GitHub's API require authentication. ***You must own a GitHub account in order to complete this challenge.***
+As you can read in the linked doc, GitHub's API requires authentication. ***You must own a GitHub account to complete this challenge.***
 
 ##### AUTH TOKEN Creation: TL;DR Version
 
-Go to [your profile's settings page](https://github.com/settings/profile). On the left menu, click on the last entry, that should be
+Go to [your profile's settings page](https://github.com/settings/profile). On the left menu, click on the last entry, which should be
 [Developer settings](https://github.com/settings/apps). On the left menu, click on Personal Access Token and then on [Fine-grained tokens](https://github.com/settings/tokens?type=beta). 
 On the top right, click on `Generate new token`. Give the token a name by filling in the required `Token name` field. You can leave all the remaining fields with the default values.
 
@@ -75,7 +75,7 @@ Create a **private Git repository** with the following format:
 
 	js_challenge_<first-name>-<last-name>
 
-[Github](https://github.com) allows private repositories for free, you only need to grant us access to it afterwards.
+[Github](https://github.com) allows private repositories for free, you only need to grant us access to it afterward.
 Please, use these accounts: [tommasoberlose](https://github.com/tommasoberlose), [andreamazz](https://github.com/andreamazz), [madAle](https://github.com/madAle), [micheletedeschi](https://github.com/micheletedeschi).
 
 Commit your work as you progress, we look at the commit history as well
